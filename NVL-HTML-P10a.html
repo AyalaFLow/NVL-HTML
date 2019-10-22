@@ -6,11 +6,59 @@
  </head>
  <body>
    <a name="inicio">
-   <h1>NVL-HTML-P8a</H1>
+   <h1>NVL-HTML-P10a</H1>
    <hr>
-   <p><b>Práctica 8a</b></p>
+   <p><b>Práctica 10a</b></p>
 
-  
+<form method="post" action="miservidor.php">
+    <div>
+      <label for="CP">Codigo postal:</label>
+      <input id="cp" type="number">
+    </div><br>
+    <div>
+      <label for="satisfaccion">Nivel de Satisfaccion:</label>
+      <select id="Satistaccion">
+      <option selected value="0">...</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      </select>
+      <p><i>(Siendo 1 la menor puntuación y 5 la mayor)</i></i>
+    </div><br>
+    <div>
+      <label for="mail">Direccion mail:</label>
+      <input id="ape2" type="text">
+    </div><br>
+    <div>
+      <label for="positivo">Puntos positivos del producto:</label>
+      <textarea id="positivo"></textarea>
+    </div><br>
+    <div>
+      <label for="negativo">Puntos negativos del producto:</label>
+      <textarea id="negativo"></textarea>
+    </div><br>
+    <div>
+      <label for="valoracion">Deja tu valoración:</label>
+      <select id="satistaccion">
+      <option selected value="0">...</option>
+      <option value="1">Excelente</option>
+      <option value="2">Bueno</option>
+      <option value="3">Regular</option>
+      <option value="4">Pésimo</option>
+      </select>
+    </div><br>
+      <div>
+      <label for="opinion">Deja tu Valoración</label>
+      <input name="satis" type="radio" value="Malo">Pésimo
+      <input name="satis" type="radio" value="Regular">Regular
+      <input name="satis" type="radio" value="Bueno">Bueno
+      <input name="satis" type="radio" value="Excelente">Excelente
+      </div>
+    </div><br>
+  <input type="submit" value="Enviar"> 
+</form><br><br>
    <a href="https://github.com/AyalaFLow/NVL-HTML.git"><b><i>ENLACE AL REPOSITORIO DE EJERCICIOS</b></i></a>
  </body>
 </html>
